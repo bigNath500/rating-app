@@ -9,74 +9,36 @@ body {
     overflow: hidden;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Anek Telugu', sans-serif;
-}
-
-* {
-    overflow: hidden;
-    line-height: normal;
+    /* font-family: 'Anek Telugu', sans-serif; */
 }
 
 .rating_box {
-    padding: 25px;
     background: linear-gradient(rgb(13, 13, 26), rgb(14, 14, 24));
-    width: 300px;
-    height: 300px;
+    width: 400px !important;
+    height: fit-content !important;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px 0px rgba(13, 13, 26, 0.411);
 }
 
 .start_main_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-    background: rgb(42, 42, 65);
-    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 13px;
 }
 
-.mt-3 {
-    margin-top: 30px;
-}
-
-.text-white {
+.btn-warning {
+    background: hsl(25, 97%, 53%);
+    border-color: hsl(25, 97%, 53%);
+    border-radius: 50px;
     color: white;
 }
 
-.text-muted {
-    color: gray;
+.btn-warning:hover {
+    background: white;
+    border-color: white;
+    color: hsl(25, 97%, 53%);
 }
 
-.mt-2 {
-    margin-top: 20px;
-}
-
-.mt-1 {
-    margin-top: 10px;
-}
-
-.heading_text {
-    line-height: normal;
-    padding: 0;
-    overflow: hidden;
-}
-
-.rounded {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(42, 42, 65);
-    height: 20px;
-    width: 20px;
-    padding: 10px;
-    overflow: hidden;
-    border-radius: 50%;
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-.d-flex {
-    display: flex;
+.appric_text {
+    color: hsl(25, 97%, 53%) !important;
+    border-radius: 50px;
 }
